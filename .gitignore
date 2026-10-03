@@ -1,0 +1,51 @@
+# Binary directory
+*build*
+
+# VSCode
+.vscode/
+
+# CLion
+.idea/
+
+# MDK-ARM
+.MDK-ARM
+DebugConfig
+*uvguix*
+
+*.o
+*.d
+*.hex
+*.bin
+*.elf
+*.axf
+*.crf
+*.map
+*.htm
+*.lnp
+*.sct
+*.dep
+*.lst
+*.scvd
+*.iex
+*.bat
+*.Bak
+*.__i
+*.i
+*.user
+
+# STM32CubeMX regeneration metadata
+/.mxproject
+
+# Keil local options, outputs and RTE version backups
+*.uvoptx
+*.uvopt
+*.uvgui.*
+*.base@*
+/MDK-ARM/DebugConfig/
+/MDK-ARM/Objects/
+/MDK-ARM/Listings/
+/MDK-ARM/LED/
+
+# Local CMake settings and compilation database
+CMakeUserPresets.json
+compile_commands.json
